@@ -12,3 +12,8 @@ Building the traffic lights for a crosswalk using: 2 LEDs to represent the traff
 
 <img src="https://user-images.githubusercontent.com/63780942/199254066-5ec5c23a-67e5-4c3c-aae4-6f16922f32d7.png" style="width: 50%;"/>
 Demo: https://youtu.be/DceG4eFD4A0
+
+## Homework 3
+With a 7-segment display, use the joystick to control the position ofthe segment and "draw" on the display. The movement between segments should be natural (meaning they should jump from the current position only to neighbors, but without passing through "walls").
+
+<img src="https://user-images.githubusercontent.com/63780942/200663670-025281e6-423b-4935-be09-e2bf6b3d9fc0.png" style="width: 50%;"/>
