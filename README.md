@@ -17,3 +17,4 @@ Demo: https://youtu.be/DceG4eFD4A0
 With a 7-segment display, use the joystick to control the position ofthe segment and "draw" on the display. The movement between segments should be natural (meaning they should jump from the current position only to neighbors, but without passing through "walls").
 
 <img src="https://user-images.githubusercontent.com/63780942/200663670-025281e6-423b-4935-be09-e2bf6b3d9fc0.png" style="width: 50%;"/>
+Demo: https://youtu.be/iPd-bjtZ1IY
