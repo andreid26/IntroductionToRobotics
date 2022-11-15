@@ -18,3 +18,9 @@ With a 7-segment display, use the joystick to control the position ofthe segment
 
 <img src="https://user-images.githubusercontent.com/63780942/200663670-025281e6-423b-4935-be09-e2bf6b3d9fc0.png" style="width: 50%;"/>
 Demo: https://youtu.be/iPd-bjtZ1IY
+
+## Homework 4
+Use the joystick to move through the 4 digit 7-segment displays digits, press the button to lock in on the current digit and use the other axis to increment or decrement the number. Keep the button pressed to reset all the digit values and the current position to the first digit in the first state.
+
+<img src="https://user-images.githubusercontent.com/63780942/201972968-9a52cb03-85f0-45c5-829c-ac6b9f0a70cd.png" style="width: 50%;"/>
+Demo: https://youtu.be/GnH7jFEcMfk
