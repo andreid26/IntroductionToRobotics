@@ -289,12 +289,12 @@ String getDifficultyMessage() {
 
 String getCurrentOptionMessage() {
   switch (currentMenuOption) {
-    case LCD_START: { return "> START"; break; }
-    case LCD_HIGHSCORE: { return "> HIGHSCORE"; break; }
-    case LCD_SETTINGS: { return "> SETTINGS"; break; }
-    case LCD_INFO: { return "> INFO"; break; }
-    case LCD_HTP: { return "> HOW TO PLAY"; break; }
-    default: { return "> START"; break; }
+    case LCD_START: { return "> START"; }
+    case LCD_HIGHSCORE: { return "> HIGHSCORE"; }
+    case LCD_SETTINGS: { return "> SETTINGS"; }
+    case LCD_INFO: { return "> INFO"; }
+    case LCD_HTP: { return "> HOW TO PLAY"; }
+    default: { return "> START"; }
   }
 }
 
