@@ -24,3 +24,35 @@ Use the joystick to move through the 4 digit 7-segment displays digits, press th
 
 <img src="https://user-images.githubusercontent.com/63780942/201972968-9a52cb03-85f0-45c5-829c-ac6b9f0a70cd.png" style="width: 50%;"/>
 Demo: https://youtu.be/GnH7jFEcMfk
+
+## Homework 5
+
+Instructions
+
+    1. When powering up the game, a greeting message is shown until the joystick button is pressed
+    2. Contains the following categories:
+            (a) Start game - when pressed, the game starts with the default difficulty (Low)
+            (b) Highscore:
+                    - initially, it prints the saved value from the EEPROM
+                    - when a player makes a new highscore, the value is updated and saved to EEPROM
+            (c) Settings:
+                    - Name: when locked (i.e the joystick button was pressed) reads the value from Serial and store it
+                    - Difficuly: there are 3 different values (LOW, MEDIUM, HIGH)
+                    - Sound: ON or OFF - saved to EEPROM
+                    - Matrix brightness - from 0 to 15 - saved to EEPROM
+                    - LCD brightness - from 0 to 255 - saved to EEPROM
+                    - Back - when pressed, returns to the main menu
+            (d) Info: includes details about the github profile
+            (e) How to play: short and informative description
+    3. The navigation through the menu is done by moving the joystick UP and DOWN
+
+In this game, the player uses the joystick to move the main LED. At the same time, random generated food is placed on the matrix. As the main LED goes through the food, the score is increased:
+
+    - For LOW difficulty: +1 for every 3 pieces of food
+    - For MEDIUM difficulty: +1 for every 2 pieces of food
+    - For HIGH difficulty: +1 for every piece of food
+    
+Increasing the difficulty makes the main LED move faster.
+
+<img src="https://user-images.githubusercontent.com/63780942/206270434-feaf471d-c56b-4979-8cb6-9ad87cee0516.png" style="width: 50%;"/>
+Demo: https://youtu.be/2HMOlzzKrJI
